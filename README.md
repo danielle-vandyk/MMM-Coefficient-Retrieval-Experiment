@@ -17,5 +17,11 @@ Additional measures that do not directly measure the accuracy of coefficients in
 
 ## Purpose of MMM Coefficient Retrieval Experiments
 
-
-Unlike many other ML tasks, the purpose of MMM is to make inferences.  In predictive tasks, it doesn't matter if the coefficients are correct as long as the predictions are close to correct.  This is not true for MMM.  Correct coefficients is the name of the game.  
+MMM Coefficient Retrieval Experiments are intended as a new validation method, focused specifically on assessing the accuracy of coefficients.  It can be used for two main purposes:
+1. **Comparing modeling methods**:  Here are some example scenarios:
+   - Should you use national-level or DMA-level data?
+   - What happens if you group small channels?
+2. **Assessing the impact of modeling conditions**
+   - Are coefficients as accurate for small channels as for large channels?
+   - What is the impact of extra noise on coefficient accuracy?
+  
