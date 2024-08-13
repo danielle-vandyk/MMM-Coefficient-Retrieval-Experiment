@@ -17,11 +17,13 @@ Additional measures that do not directly measure the accuracy of coefficients in
 
 ## Purpose of MMM Coefficient Retrieval Experiments
 
-MMM Coefficient Retrieval Experiments are intended as a new validation method, focused specifically on assessing the accuracy of coefficients.  It can be used for two main purposes:
+MMM Coefficient Retrieval Experiments are intended as a new validation method, focused specifically on assessing the accuracy of coefficients.  It can be used for several purposes:
 1. **Comparing modeling methods**:  Here are some example scenarios:
    - Should you use national-level or DMA-level data?
    - What happens if you group small channels?
 2. **Assessing the impact of modeling conditions**
    - Are coefficients as accurate for small channels as for large channels?
    - What is the impact of extra noise on coefficient accuracy?
+3. **Idenitfy other metrics that serve as a proxy for coefficient accuracy**
+   - Do VIF values correlate with coefficient accuracy?
   
