@@ -29,9 +29,9 @@ MMM Coefficient Retrieval Experiments are intended as a new validation method, f
 
 ## Description of MMM Coefficient Retrieval Experiments
 
-1. Gather real independent variable data
-2. Generate synthetic coefficients using random numbers
-3. Multiply synthetic coefficients by independent variables.  Then add up results to get synthetic dependent variable.
-4. Add random noise to dependent variable.
-5. Train regression model in an attempt to retrieve synthetic coefficients.  Assess accuracy of trained coefficients.
-6. Repeat steps 2-5 numerous times to get a distribution of outcomes.
+1. **Gather real data** for independent variables
+2. **Generate synthetic coefficients** using random numbers
+3. **Create synthetic dependent variable**.  Multiply synthetic coefficients by independent variables.  Then add up results to get synthetic dependent variable.
+4. **Add random noise** to dependent variable.
+5. **Retrieve synthetic coefficients** by training a regression model.  Assess accuracy of trained coefficients.
+6. **Repeat steps 2-5** numerous times to get a distribution of outcomes.
