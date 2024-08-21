@@ -37,24 +37,6 @@ MMM Coefficient Retrieval Experiments are intended as a new validation method, f
 6. **Add data for analysis** to be able to analyze relationship between retrieved coefficient accuracy and other factors.
 7. **Repeat steps 2-6** numerous times to get a distribution of outcomes.
 
-### Gather Data
-1) Gather Real Data
+## Code in this Repo
 
-### Define Functions for MMM Coefficient Retrieval Experiments
-
-Steps 2-6 define functions that will be used in the loop in Step 7.  At the end of each cell block in Steps 2-6 I show a sample output of the function to make the code more understandable.
-
-2) Create Synthetic Coefficients
-3) Create Synthetic Dependent Variable
-4) Add Noise
-5) Retrieve Synthetic Coefficients with Regression
-6) Add Data for Analysis
-
-### Conduct MMM Coefficient Retrieval Experiments
-7) Loop Steps 2-6
-
-### Analyze Results (2 Examples)
-8) Analyze the relationship between retrieved coefficient accuracy and other factors. <br>
-
-    Example 1: Examine effect of independent variable contribution on coefficient accuracy. <br>
-    Example 2: Examine the relationship between VIF and coefficient accuracy.
+The Jupyter Notebook in this repo provides an example of how to run an MMM Coefficient Retrieval Experiment as well as two analysis examples from the uses cases listed above.  The beauty of these experiments is they can be adapted to investigate a wide variety of hypotheses, so the only limit to their application is creativity.
