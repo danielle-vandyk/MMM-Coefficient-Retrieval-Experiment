@@ -4,7 +4,12 @@
 
 Marketers use MMM to determine the efficacy of each of their advertising channels.  While the ability to predict sales might be a nice bonus outcome to a good MMM model, no marketer is going to be happy with an MMM model that correctly predicts sales but inaccurately assesses the efficacy of each advertising channel.
 
-In contrast with the primary purpose of MMM (inferring the efficacy of marketing channels, not predicting sales), most ML validation methods are intended to assess whether a model makes accurate predictions.  The following are methods intended to assess the accuracy of the predictions:
+Below is an example of a MMM model formula using basic linear regression.  What we care about is whether we can train accurate coeffients (represented as $\beta$ in this formula).
+
+![Images/MMM Regression Formula.png](https://github.com/danielle-vandyk/MMM-Coefficient-Retrieval-Experiment/blob/main/Images/MMM%20Regression%20Formula.png)
+
+
+In contrast with the primary purpose of MMM (inferring the efficacy of marketing channels, not predicting sales), most ML validation methods are intended to assess whether a model makes accurate predictions ($Y$ in the formula above).  For example, the following are methods intended to assess the accuracy of the predictions:
 
 - train/test sets
 - MAPE
@@ -28,6 +33,8 @@ MMM Coefficient Retrieval Experiments are intended as a new validation method, f
    - Do VIF values correlate with coefficient accuracy?
 
 ## Description of MMM Coefficient Retrieval Experiments
+
+Below is a description of the MMM Coefficient Retrieval Experiments detailed in the ipynb file in this repo.  The concept is to assign coefficients that are **known to you** (a distinct contrast from real world MMM work, where the coefficients are inherently unknown) and then see if you can retrieve those known coefficients by training the model.
 
 1. **Gather real data** for independent variables
 2. **Generate synthetic coefficients** using random numbers
