@@ -4,7 +4,7 @@
 
 Marketers use MMM to determine the efficacy of each of their advertising channels.  While the ability to predict sales might be a nice bonus outcome to a good MMM model, no marketer is going to be happy with an MMM model that correctly predicts sales but inaccurately assesses the efficacy of each advertising channel.
 
-In contrast with the primary purpose of MMM (inference, not prediction), most ML validation methods are intended to assess whether a model makes accurate predictions.  The following are methods intended to assess the accuracy of the predictions:
+In contrast with the primary purpose of MMM (inferring the efficacy of marketing channels, not predicting sales), most ML validation methods are intended to assess whether a model makes accurate predictions.  The following are methods intended to assess the accuracy of the predictions:
 
 - train/test sets
 - MAPE
