@@ -4,7 +4,7 @@
 
 Marketers use MMM to determine the efficacy of each of their advertising channels.  While the ability to predict sales might be a nice bonus outcome to a good MMM model, no marketer is going to be happy with an MMM model that correctly predicts sales but inaccurately assesses the efficacy of each advertising channel.
 
-Below is an example of a MMM model formula using basic linear regression.  What we care about is whether we can train accurate coeffients (represented as $\beta$ in this formula).
+Below is an example of an MMM model formula using basic linear regression.  What we care about is whether we can train accurate coeffients (represented as $\beta$ in this formula).
 
 ![Images/MMM Regression Formula.png](https://github.com/danielle-vandyk/MMM-Coefficient-Retrieval-Experiment/blob/main/Images/MMM%20Regression%20Formula.png)
 
