@@ -46,4 +46,4 @@ Below is a description of the MMM Coefficient Retrieval Experiments detailed in 
 
 ## Code in this Repo
 
-The Jupyter Notebook in this repo provides an example of how to run an MMM Coefficient Retrieval Experiment as well as two analysis examples from the uses cases listed above.  The beauty of these experiments is they can be adapted to investigate a wide variety of hypotheses, so the only limit to their application is creativity.
+The Jupyter Notebook in this repo provides an example of how to run an MMM Coefficient Retrieval Experiment as well as two analysis examples from the use cases listed above.  The beauty of these experiments is they can be adapted to investigate a wide variety of hypotheses, so the only limit to their application is creativity.
